@@ -1,0 +1,23 @@
+.wrapper-weather {
+  padding: 20px;
+  display: grid;
+  row-gap: 20px;
+  column-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.autoUpdate {
+  display: inline-block;
+  font-size: 12px;
+  margin: 0 0 0 10px;
+  padding: 3px 15px;
+  border: 1px solid #999;
+  vertical-align: middle;
+  border-radius: 6px;
+}
+.autoUpdate span {
+  font-weight: 700;
+}
+.autoUpdate input {
+  vertical-align: middle;
+}

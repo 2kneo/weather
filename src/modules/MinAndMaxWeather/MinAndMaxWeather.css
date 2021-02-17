@@ -1,0 +1,23 @@
+.wrapper-temp {
+  width: 20%;
+  display: grid;
+  row-gap: 20px;
+  column-gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(153, 153, 153, 0.13);
+  border-radius: 6px;
+}
+
+.temp {
+  margin-left: 15px;
+}
+
+.max {
+  color: #FFA500;
+}
+
+.min {
+  color: #61dafb;
+}
